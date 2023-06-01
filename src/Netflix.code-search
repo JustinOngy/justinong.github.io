@@ -1,0 +1,25 @@
+# Query: Netflix
+# ContextLines: 1
+
+5 results - 4 files
+
+package-lock.json:
+  1  {
+  2:   "name": "Netflix Clone",
+  3    "lockfileVersion": 2,
+
+netflix-clone/src/App.js:
+  13        <Row 
+  14:       title="NETFLIX ORIGINALS" 
+  15:       fetchUrl={requests.fetchNetflixOriginals} 
+  16        isLargeRow 
+
+netflix-clone/src/Banner.js:
+   9          async function fetchData() {
+  10:             const request = await axios.get(requests.fetchNetflixOriginals);
+  11              setMovie(
+
+netflix-clone/src/requests.js:
+  4      fetchTrending:`/trending/all/week?api_key=${API_KEY}&language=en-US`,
+  6:     fetchNetflixOriginals:`/discover/tv?api_key=${API_KEY}&with_networks=213`,
+  6      fetchTopRated:`/movie/top_rated?api_key=${API_KEY}&language=en-US`,

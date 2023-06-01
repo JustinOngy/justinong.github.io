@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security",
+    "https-browserify": "^1.0.0",
+    "movie-trailer": "^1.0.4",
+    "os": "^0.1.2",
+    "os-browserify": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-youtube": "^9.0.2"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "crypto-browserify": "^3.12.0",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0"
+  }
+}
